@@ -1,0 +1,112 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #ffffff10;
+    box-shadow: 0px 0px 10px white;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 40%;
+    top: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.months {
+    display: flex;
+    position: inherit;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #ffffff50;
+    text-align: center;
+    box-shadow: 0 0 10px white;
+    margin-bottom: -50px;
+}
+
+.icons {
+    display: flex;
+    background-color: #ffffff10;
+    box-shadow: 0px 0px 10px white;
+    width: 850px;
+    height: 300px;
+    position: relative;
+    left: 25%;
+    top: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    
+    background-color: #ffffff30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffffff;
+    margin-bottom: 20px;
+}
+
+.print {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.tekst {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #ffffff80;
+    
+}
+
+#butt {
+    background-color: #ffffff50;
+    border: none;
+    box-shadow: 0 0 10px white;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.template {
+    width: 200px;
+    height: 250px;
+    background-color: #ffffff30;
+    display: flex grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffffff;
+    padding: 15px;
+    color: #ffffff90;
+    margin: 20px;
+    text-align: center;
+}
+
+.jpg {
+    width: 150px;
+    height: 100px;
+
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 300px 300px 300px;
+}
